@@ -1,0 +1,59 @@
+<html>
+    <body>
+        <h1>Project CPSC-332</h1> 
+        <p>By Jerry Liu, Ashkon Yavarinia, Stephen</p>
+        <h1>For Professor</h1>
+        <p>Find classrooms and meeting days and times.</p>
+        <form action="find_class.php" method="POST">
+
+            Enter the social security number:  
+            <br>
+            <input type="text" name="ssn" placeholder="Ex. 123456789">
+            <input type="reset" value="Clear">
+            <br>
+            <input type="submit" />
+
+        </form>
+        <br>
+        <p>Grades: Course Number and Section Number</p>
+        <form action="prof_grades.php" method="POST">
+            Enter the Course number: 
+            <br>
+            <input type="text" name="cn" placeholder="Ex. CPSC-332"/>
+            <input type="reset" value="Clear">
+            <br>
+            Enter the Section Number number: 
+            <br>
+            <input type="text" name="sn" placeholder="Ex. 1"/>
+            <input type="reset" value="Clear">
+            <br>
+            <input type="submit" />
+        </form>
+        <br>
+        <br>
+
+        <h1>For Students</h1>
+
+        <p>Sections avaliable in a Course number</p>
+
+        <form action="find_section.php" method="POST">
+            Enter the Course Number: 
+            <br>
+            <input type="text" name="cnum" placeholder="Ex. CPSC-332"/>
+            <input type="reset" value="Clear">
+            <br>
+            <input type="submit" />
+        </form>
+
+        <br>
+        <p>All Courses a Student took and Grades</p>
+        <form action="student_grades.php" method="POST">
+            Enter the CWID: 
+            <br>
+            <input type="text" name="id" placeholder="Ex. 881775779"/>
+            <input type="reset" value="Clear">
+            <br>
+            <input type="submit"  />
+        </form>
+    </body>
+</html>
