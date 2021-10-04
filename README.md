@@ -1,12 +1,44 @@
-# SQL-Database
-#CPSC-332
+#SQL-Database
+CPSC-332
+Created by Ashkon Yavarinia, Jerry Liu, and Stephen Merwin.
 
-#Created by Ashkon Yavarinia, Jerry Liu, and Stephen Merwin.
+<br />
+<h3 align="center">Larks and Turk & Propp Ant</h3>
+
+</div>
 
 
-#Project Descriptions:
-You are asked to design a database for a university that satises the following
-requirements:
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#bugs">Bugs</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+You are asked to design a database for a university that satises the following.
+
+##### SQL
 
 1. The database keeps information of each professor, including the social
 security number, name, address, telephone number, sex, title, salary, and
@@ -38,7 +70,7 @@ Design your database and create at least the following numbers of records:
 8 students 2 departments 3 professors
 4 courses 6 sections 20 enrollment records
 
-
+##### PHP
 
 You should provide interfaces for the following individuals:
 For the professors:
@@ -55,3 +87,43 @@ each section.
 
 b. Given the campus wide ID of a student, list all courses the student took
 and the grades.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+### Built With
+
+* [SQL](https://dev.mysql.com/doc/)
+* [PHP](https://www.php.net/)
+* [MariaDB](https://mariadb.org/)
+* [HTML](https://html.spec.whatwg.org/multipage/)
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+Access to the server might be required. The host server may be down
+
+### Prerequisites
+ No prerequisites
+
+### Installation
+To run the program, simply open index.html in a browser.
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+## Bugs
+Bugs: None
+
+<p align="right">(<a href="#top">back to top</a>)</p>
