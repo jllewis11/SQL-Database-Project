@@ -3,7 +3,7 @@ CPSC-332
 Created by Ashkon Yavarinia, Jerry Liu, and Stephen Merwin.
 
 <br />
-<h3 align="center">Larks and Turk & Propp Ant</h3>
+<h3 align="center">SQL Database Project</h3>
 
 </div>
 
